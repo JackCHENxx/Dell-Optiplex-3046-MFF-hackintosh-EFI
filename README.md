@@ -16,7 +16,7 @@ Audio card: Realtek ALC255 @ Intel Sunrise Point PCH
 
 Ethernet: Realtek RTL8168/8111
 
-Wifi&Bluetooth: Intel wifi card with Blutooth 4.0
+Wifi&Bluetooth: [Intel(R) Dual Band Wireless AC 8260 with Blutooth 4.2](https://ark.intel.com/content/www/us/en/ark/products/86068/intel-dual-band-wirelessac-8260.html)
 
 
 
