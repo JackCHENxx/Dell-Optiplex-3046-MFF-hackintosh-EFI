@@ -38,7 +38,7 @@ Wifi&Bluetooth: [Intel(R) Dual Band Wireless AC 8260 with Blutooth 4.2](https://
 
 ## What does NOT work:
 
-- [ ] Hibernation - When back from Hibernation display no output
+- [ ] Hibernation - When backing from Hibernation display has no output
 - [ ] Airdrop
 - [ ] Sidecar
 
