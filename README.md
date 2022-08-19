@@ -49,3 +49,4 @@ Wifi&Bluetooth: [Intel(R) Dual Band Wireless AC 8260 with Blutooth 4.2](https://
 
 - Fix shutdown restart issue
 - Upgrate to adapt Monterey
+- Upgrade Opencore to 0.8.3
