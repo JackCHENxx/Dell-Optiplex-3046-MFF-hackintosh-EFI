@@ -35,6 +35,7 @@ Wifi&Bluetooth: [Intel(R) Dual Band Wireless AC 8260 with Blutooth 4.2](https://
 3. Increase graphic card memory size
    - [x] Tool: cfglock.efi (Included in the EFI)
    - [x] setup_var 0x350 0x4  (128MB)
+   - [x] OR setup_var 0x350 0x2  (64MB)
 
 ## What does NOT work:
 
@@ -42,3 +43,9 @@ Wifi&Bluetooth: [Intel(R) Dual Band Wireless AC 8260 with Blutooth 4.2](https://
 - [ ] Airdrop
 - [ ] Sidecar
 
+## Log:
+
+2022-08-20
+
+- Fix shutdown restart issue
+- Upgrate to adapt Monterey
