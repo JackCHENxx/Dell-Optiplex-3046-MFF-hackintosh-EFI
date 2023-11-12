@@ -31,11 +31,11 @@ Wifi&Bluetooth: [Intel(R) Dual Band Wireless AC 8260 with Blutooth 4.2](https://
    - [x] Setting -> virtualization support -> vt for Direct I/O -> **UNCHECK** Enable VT for Direct I/O
 2. CFG  Unlock:
    - [x] Tool: cfglock.efi (Included in the EFI)
-   - [x] setup_var 0xAF 0x0
+   - [x] setup_var_3 0xAF 0x0
 3. Increase graphic card memory size
    - [x] Tool: cfglock.efi (Included in the EFI)
-   - [x] setup_var 0x350 0x4  (128MB)
-   - [x] OR setup_var 0x350 0x2  (64MB)
+   - [x] setup_var_3 0x350 0x4  (128MB)
+   - [x] OR setup_var_3 0x350 0x2  (64MB)
 
 ## What does NOT work:
 
