@@ -2,7 +2,7 @@
 
 Modified from: https://bbs.pcbeta.com/viewthread-1883242-1-1.html
 
-Tested on: macOS Catalina&BigSue with Opencore: 0.7.6
+Tested on: macOS Catalina&Big Sur with Opencore: 0.7.6
 
 ## Dell Optiplex 3046 SFF hardware configration:
 
