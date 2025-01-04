@@ -39,7 +39,7 @@ Wifi&Bluetooth: [Intel(R) Dual Band Wireless AC 8260 with Blutooth 4.2](https://
 3. Increase graphic card memory size
    - [x] setup_var 0x350 0x4  (128MB)
    - [x] OR setup_var 0x350 0x2  (64MB)
-4. Use the original BOOTx64.efi when CFG Lock and graphic card memory size completed
+4. Use the original BOOTx64.efi when CFG Lock and graphic card memory size action done
 
 ## What does NOT work:
 
