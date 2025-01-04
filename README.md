@@ -30,12 +30,16 @@ Wifi&Bluetooth: [Intel(R) Dual Band Wireless AC 8260 with Blutooth 4.2](https://
    - [x] setting -> secure boot -> secure boot enalbe -> disabled
    - [x] Setting -> virtualization support -> vt for Direct I/O -> **UNCHECK** Enable VT for Direct I/O
 2. CFG  Unlock:
-   - [x] Tool: modGRUBShell.efi (Included in the EFI)
+   - [x] Tool: BOOTx64.efi-For CFGLock under folder EFI->BOOT
+   - [x] Rename BOOTx64.efi to a sepcific file name
+   - [x] Rename BOOTx64.efi-For CFGLock to BOOTx64.efi
+   - [x] Copy whole EFI folder to a FAT32 formate USB stick
+   - [x] BOOT from USB
    - [x] setup_var 0xAF 0x0
 3. Increase graphic card memory size
-   - [x] Tool: modGRUBShell.efi (Included in the EFI)
    - [x] setup_var 0x350 0x4  (128MB)
    - [x] OR setup_var 0x350 0x2  (64MB)
+4. Use the original BOOTx64.efi when CFG Lock and graphic card memory size completed
 
 ## What does NOT work:
 
@@ -50,6 +54,7 @@ Wifi&Bluetooth: [Intel(R) Dual Band Wireless AC 8260 with Blutooth 4.2](https://
 - Upgrate to adapt Monterey
 - Upgrade Opencore to 0.8.3
   
+
 2025-01-01
 - Update README
 - Upgrade Opencore to 1.0.3
